@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujit Nalawade - Senior Machine Learning Engineer</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: linear-gradient(90deg, #2196F3, #21CBF3);
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2rem;
+            letter-spacing: 0.5px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 0.5rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #fff;
+            padding: 1rem 1.5rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            transition: background 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background: #575757;
+            color: #fff;
+        }
+        section {
+            padding: 4rem 2rem;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #2196F3;
+            border-bottom: 2px solid #2196F3;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        h3 {
+            margin-top: 2rem;
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            padding-left: 1.2rem;
+            position: relative;
+        }
+        ul li:before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #2196F3;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        footer a:hover {
+            color: #21CBF3;
+            text-decoration: underline;
+        }
+        @media (min-width: 768px) {
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 2rem;
+            }
+            .grid-item {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sujit Nalawade</h1>
+    <p>Senior Machine Learning Engineer</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#conference">Conferences</a>
+</nav>
+
+<section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>As a Senior Machine Learning Engineer, I bring over 7 years of experience in the design, development, and deployment of machine learning solutions. My expertise spans across computer vision, natural language processing, and deep learning. I am adept at building scalable ML-based solutions and have a proven track record of effectively managing projects both independently and collaboratively within a team.</p>
+    </div>
+</section>
+
+<section id="experience">
+    <div class="container">
+        <h2>Experience</h2>
+        <div class="grid">
+            <div class="grid-item">
+                <h3>Senior Machine Learning Engineer</h3>
+                <p><strong>ADAGRAD AI PVT. LTD., Pune</strong> | <em>April 2020 - Present</em></p>
+                <ul>
+                    <li>Design and develop scalable Computer Vision and NLP pipelines to solve real-world problems.</li>
+                    <li>Collaborate with teams to brainstorm, design, and implement solutions for large-scale deployments.</li>
+                </ul>
+            </div>
+            <div class="grid-item">
+                <h3>Machine Learning Engineer (NLP) - Freelance</h3>
+                <p><strong>LINESLIP SOLUTIONS PVT. LTD., New York City</strong> | <em>Dec 2018 - April 2020</em></p>
+                <ul>
+                    <li>Trained word embedding models using Word2vec and Gen-sim for insurance documents.</li>
+                    <li>Improved NER F1 score from 0.60 to 0.85 using Bidirectional LSTM and BERT.</li>
+                    <li>Developed a Doc2vec-based document classifier achieving an F1 score of 0.93.</li>
+                </ul>
+            </div>
+            <div class="grid-item">
+                <h3>Software Engineer</h3>
+                <p><strong>XORIANT SOLUTIONS PVT. LTD., Pune, India</strong> | <em>June 2016 - March 2020</em></p>
+                <ul>
+                    <li>Developed a data masking library for anonymizing personal information in XML documents.</li>
+                    <li>Designed a web interface for payload management using Angular and Node.js.</li>
+                    <li>Certified in Microsoft Azure for "Developing Microsoft Azure Solutions".</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="grid">
+            <div class="grid-item">
+                <h3>DNSTAR</h3>
+                <p>Developed a high-performance deep learning inference pipeline for real-time video processing. This pipeline supports various object detection and classification models. It has been deployed globally, monitoring over 1000 cameras. The system ensures high accuracy and speed, processing video feeds to detect and classify objects efficiently.</p>
+            </div>
+            <div class="grid-item">
+                <h3>REID & MATCHING</h3>
+                <p>Created a utility for cross-camera tracking of individuals by matching feature vectors. The solution optimized execution time from 72 hours to just 3 hours through the implementation of multiprocessing and multithreading techniques. This project is critical for security and surveillance applications, enabling rapid identification and tracking across multiple camera feeds.</p>
+            </div>
+            <div class="grid-item">
+                <h3>CHECKOUT ACCURACY</h3>
+                <p>Designed a video processing pipeline to detect unbilled goods during the checkout process. The system uses overhead cameras to monitor transactions and identify items that were not scanned. This solution is deployed across more than 200 registers in major stores in the US and Canada, significantly reducing instances of shrinkage and improving inventory accuracy.</p>
+            </div>
+            <div class="grid-item">
+                <h3>GATEGUARD</h3>
+                <p>Developed an inference pipeline for real-time vehicle number plate identification. The system is deployed across multiple sites in India, enhancing security and monitoring capabilities by accurately identifying and logging vehicle entries and exits. The project utilized advanced computer vision techniques to ensure high accuracy in various lighting and environmental conditions.</p>
+            </div>
+            <div class="grid-item">
+                <h3>NOBI ENGINE</h3>
+                <p>Designed an inference pipeline to monitor elderly actions in old age homes using oriented bounding box detection. The system provides real-time monitoring to ensure the safety and well-being of residents. It detects and alerts caregivers about unusual activities or potential emergencies, such as falls, enabling prompt assistance and improving overall care quality.</p>
+            </div>
+            <div class="grid-item">
+                <h3>TRITON INFER ENGINE</h3>
+                <p>Developed an inference API server to support multiple models on Nvidia Triton with batched inference. The system optimizes GPU utilization and inference speed, handling high-throughput demands efficiently. This project is instrumental for deploying scalable AI solutions that require robust and flexible inference capabilities.</p>
+            </div>
+            <div class="grid-item">
+                <h3>TAXBOT</h3>
+                <p>Created a chatbot for answering tax-related queries using the RASA framework. The bot was deployed on AWS EC2, providing users with accurate and timely responses to their tax questions. The project involved training natural language understanding models and integrating them with a conversational AI platform, offering a user-friendly interface for tax assistance.</p>
+            </div>
+            <div class="grid-item">
+                <h3>POSEIDN</h3>
+                <p>Developed a video processing pipeline to estimate customer interactions in retail stores using pose estimation models. The system analyzes customer movements and interactions to provide insights into shopping behavior. This information helps retailers optimize store layouts and improve customer experience by understanding how customers navigate and interact with products.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="container">
+        <h2>Skills</h2>
+        <p><strong>Expertise:</strong> Image Classification, Object Detection and Tracking, Computer Vision, NLP</p>
+        <p><strong>Programming Languages:</strong> Python, C, C++</p>
+        <p><strong>Libraries and Frameworks:</strong> PyTorch, CUDA, OpenCV, PyTorch Lightning, ONNXRuntime, Scikit-Learn, NVIDIA DeepStream, TensorRT, GStreamer, Triton Inference Server, Django Rest Framework, Flask, Hugging Face Transformers, RASA, Sentence Transformers</p>
+        <p><strong>CI/CD Tools:</strong> Docker, Docker Compose, Git, GitHub, GitHub Actions</p>
+        <p><strong>Databases:</strong> MySQL, PostgreSQL</p>
+    </div>
+</section>
+
+<section id="education">
+    <div class="container">
+        <h2>Education</h2>
+        <h3>Post Graduate Diploma in Data Science</h3>
+        <p><strong>INTERNATIONAL INSTITUTE OF INFORMATION TECHNOLOGY, Pune, India</strong> | <em>Sep 2018 - Sep 2019</em></p>
+        
+        <h3>Bachelor of Computer Engineering</h3>
+        <p><strong>UNIVERSITY OF PUNE, Pune, India</strong> | <em>June 2012 - July 2016</em></p>
+    </div>
+</section>
+
+<section id="conference">
+    <div class="container">
+        <h2>Conferences</h2>
+        <ul>
+            <li>Presented at NVIDIA GTC 2022 on "Save Thousands of Man-hours with Geometric Deep Learning and TensorRT".</li>
+            <li>Presented at NVIDIA GTC 2021 on "Object Detection at 1770 FPS: Designing CNNs that Scale Using DeepStream SDK".</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>Contact: <a href="mailto:technosujit25@mail.com">technosujit25@mail.com</a> | Phone: +91 8329132283 | <a href="https://www.linkedin.com/in/sujit25" target="_blank">LinkedIn</a></p>
+</footer>
+
+</body>
+</html>
