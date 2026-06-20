@@ -130,7 +130,7 @@
             <div class="stat-item"><div class="stat-num">200+</div><div class="stat-label">Retail Registers</div></div>
         </div>
         <div class="hero-ctas">
-            <a href="mailto:technosujit25@mail.com" class="btn-primary">✉ Get in Touch</a>
+            <a href="mailto:technosujit25@gmail.com" class="btn-primary">✉ Get in Touch</a>
             <a href="https://www.linkedin.com/in/sujit25" target="_blank" class="btn-ghost">↗ LinkedIn</a>
         </div>
     </div>
@@ -146,7 +146,7 @@
                 <div class="about-detail"><span>📍</span> Pune, India</div>
                 <div class="about-detail"><span>🎓</span> PGD Data Science — IIIT Bangalore</div>
                 <div class="about-detail"><span>🎤</span> NVIDIA GTC Speaker (2021, 2022)</div>
-                <div class="about-detail"><span>📧</span> technosujit25@mail.com</div>
+                <div class="about-detail"><span>📧</span> technosujit25@gmail.com</div>
                 <div class="about-detail"><span>📱</span> +91 8329132283</div>
             </div>
             <div class="about-text">
@@ -173,9 +173,8 @@
                     <div class="timeline-date">Apr 2020 – Present</div>
                 </div>
                 <ul class="timeline-bullets">
-                    <li>Design and develop scalable Computer Vision and NLP pipelines for real-world production deployments.</li>
-                    <li>Lead cross-functional teams designing solutions handling 1000+ live camera feeds globally.</li>
-                    <li>Architect high-performance inference systems using NVIDIA Triton, TensorRT, and DeepStream SDK.</li>
+                    <li>Responsible for the design, development, and deployment of Computer Vision and NLP pipelines for solving real-world use cases.</li>
+                    <li>Close collaboration with the team to brainstorm, design, and solve problems in a scalable fashion for large scale deployment.</li>
                 </ul>
             </div>
             <div class="timeline-item">
@@ -184,9 +183,9 @@
                     <div class="timeline-date">Dec 2018 – Apr 2020</div>
                 </div>
                 <ul class="timeline-bullets">
-                    <li>Trained Word2Vec and Gen-sim embeddings for specialized insurance document corpora.</li>
-                    <li>Improved NER F1 score from 0.60 → 0.85 using BiLSTM + BERT architectures.</li>
-                    <li>Built a Doc2Vec-based document classifier achieving F1 score of 0.93.</li>
+                    <li>Trained word embedding generation algorithms using Word2Vec and Gensim for words from insurance documents.</li>
+                    <li>Trained Bidirectional LSTM and BERT for named entity recognition in docs, improving F1 score from 0.60 to 0.85.</li>
+                    <li>Trained a Doc2Vec-based document classifier with an F1 score of 0.93 for large document classification.</li>
                 </ul>
             </div>
             <div class="timeline-item">
@@ -195,9 +194,9 @@
                     <div class="timeline-date">Jun 2016 – Mar 2020</div>
                 </div>
                 <ul class="timeline-bullets">
-                    <li>Developed a data masking library for anonymizing PII in XML documents at scale.</li>
-                    <li>Designed a payload management web interface using Angular and Node.js.</li>
-                    <li>Certified: Microsoft Azure — "Developing Microsoft Azure Solutions".</li>
+                    <li>Developed a data masking library for masking out personal information fields from large XML documents using C/.NET.</li>
+                    <li>Designed a web interface for payload management using Angular and Node.js.</li>
+                    <li>Certified in Microsoft Azure — "Developing Microsoft Azure Solutions".</li>
                 </ul>
             </div>
         </div>
@@ -211,14 +210,16 @@
         <div class="section-label">// Selected Work</div>
         <div class="section-title">Projects</div>
         <div class="projects-grid">
-            <div class="project-card"><div class="project-icon">🎥</div><h3>DNSTAR</h3><p>High-performance deep learning inference pipeline for real-time video processing. Deployed globally, monitoring 1000+ cameras with state-of-the-art object detection and classification.</p></div>
-            <div class="project-card"><div class="project-icon">👤</div><h3>REID & MATCHING</h3><p>Cross-camera person re-identification by matching feature vectors. Reduced execution time from 72 hours → 3 hours via multiprocessing and multithreading optimizations.</p></div>
-            <div class="project-card"><div class="project-icon">🛒</div><h3>CHECKOUT ACCURACY</h3><p>Video pipeline detecting unbilled goods at checkout. Deployed across 200+ registers in US and Canada, significantly reducing shrinkage and improving inventory accuracy.</p></div>
-            <div class="project-card"><div class="project-icon">🚗</div><h3>GATEGUARD</h3><p>Real-time vehicle number plate identification deployed across multiple sites in India, enhancing security through accurate vehicle logging in varied conditions.</p></div>
-            <div class="project-card"><div class="project-icon">🏠</div><h3>NOBI ENGINE</h3><p>Oriented bounding box detection pipeline monitoring elderly residents in care homes. Detects falls and unusual activity, alerting caregivers in real time.</p></div>
-            <div class="project-card"><div class="project-icon">⚡</div><h3>TRITON INFER ENGINE</h3><p>Inference API server supporting multiple models on NVIDIA Triton with batched inference, optimizing GPU utilization for high-throughput production AI workloads.</p></div>
-            <div class="project-card"><div class="project-icon">💬</div><h3>TAXBOT</h3><p>RASA-based chatbot for tax-related queries deployed on AWS EC2, combining NLU model training with conversational AI for accurate, user-friendly assistance.</p></div>
-            <div class="project-card"><div class="project-icon">🏪</div><h3>POSEIDN</h3><p>Pose estimation pipeline for retail analytics — estimates customer interactions and shopping behavior to help optimize store layouts and improve experience.</p></div>
+            <div class="project-card"><div class="project-icon">🎥</div><h3>DNSTAR</h3><p>High-performance deep learning inference pipeline for real-time video processing, supporting object detection (YOLOX, YOLOv8) and classification models. Custom Python/C++ bindings for analytics. Deployed across global sites spanning 1000+ cameras on dGPU.</p></div>
+            <div class="project-card"><div class="project-icon">👤</div><h3>REID & MATCHING</h3><p>Cross-camera tracking microservice matching pedestrians via ReID feature vectors and cosine similarity. Trained ViT-S16/B16 with triplet loss on a curated 5K-identity dataset, reaching 0.9 mAP and 0.93 Rank-1. Cut runtime from 72 hrs to 3 hrs via multiprocessing.</p></div>
+            <div class="project-card"><div class="project-icon">🛒</div><h3>CHECKOUT ACCURACY</h3><p>Video pipeline using a custom YOLOv5-OBB model to detect unbilled goods in shopping carts from overhead cams at checkout. Deployed across 200+ registers at one of the largest retail chains in the US and Canada.</p></div>
+            <div class="project-card"><div class="project-icon">🚗</div><h3>GATEGUARD</h3><p>Real-time vehicle number plate identification pipeline (YOLOX, YOLOv8) with custom event aggregation. Deployed across 100+ sites in 10+ Indian cities, including tolls, malls, and housing societies.</p></div>
+            <div class="project-card"><div class="project-icon">🏠</div><h3>NOBI ENGINE</h3><p>Oriented bounding box detection pipeline (YOLOv5-OBB, 0.9 mAP@50) identifying elderly resident actions in care rooms, with custom OBB support added to DeepStream's Nvinfer component. Deployed on Jetson Nano, TX2NX, and NX edge devices.</p></div>
+            <div class="project-card"><div class="project-icon">⚡</div><h3>TRITON INFER ENGINE</h3><p>Inference API server fronting NVIDIA Triton with batched multi-model inference support, serving YOLOX, YOLOv5, YOLOv5-OBB, YOLOv8, and ResNet-18 as the interface between end users and the inference server.</p></div>
+            <div class="project-card"><div class="project-icon">💬</div><h3>TAXBOT</h3><p>RASA-based chatbot answering Indian tax-filing queries for a Mumbai-based financial company, combining a custom-trained conversational bot with similarity search for out-of-domain Q&A. Deployed on AWS EC2.</p></div>
+            <div class="project-card"><div class="project-icon">🏪</div><h3>POSEIDN</h3><p>Video pipeline using YOLOv8 pose estimation to measure customer interaction in retail store sections, helping optimize layout and shopping experience. Deployed across multiple retail stores in the EU.</p></div>
+            <div class="project-card"><div class="project-icon">📦</div><h3>SOPHIA</h3><p>Inference pipeline combining a custom YOLOv8 detector with Microsoft Azure Vision API to extract and match company-specific codes on containers and trailers, deployed on managed Azure Triton and integrated with other microservices.</p></div>
+            <div class="project-card"><div class="project-icon">🏭</div><h3>WAREHOUSE ANALYTICS</h3><p>Analytics product tracking inflow/outflow of cement bags in a warehouse using a YOLOv8-backbone detection model trained with Azure Vision APIs, deployed for cloud inference via FastAPI.</p></div>
         </div>
     </div>
 </section>
@@ -230,12 +231,12 @@
         <div class="section-label">// Technical Stack</div>
         <div class="section-title">Skills</div>
         <div class="skills-grid">
-            <div class="skill-group"><h4>Expertise</h4><div class="skill-tags"><span class="skill-tag">Computer Vision</span><span class="skill-tag">Object Detection</span><span class="skill-tag">Image Classification</span><span class="skill-tag">NLP</span><span class="skill-tag">Deep Learning</span></div></div>
+            <div class="skill-group"><h4>Expertise</h4><div class="skill-tags"><span class="skill-tag">Computer Vision</span><span class="skill-tag">Object Detection & Tracking</span><span class="skill-tag">Image Classification</span><span class="skill-tag">NLP</span></div></div>
             <div class="skill-group"><h4>Languages</h4><div class="skill-tags"><span class="skill-tag">Python</span><span class="skill-tag">C++</span><span class="skill-tag">C</span></div></div>
             <div class="skill-group"><h4>ML / Vision</h4><div class="skill-tags"><span class="skill-tag">PyTorch</span><span class="skill-tag">PyTorch Lightning</span><span class="skill-tag">CUDA</span><span class="skill-tag">TensorRT</span><span class="skill-tag">ONNXRuntime</span><span class="skill-tag">Scikit-Learn</span><span class="skill-tag">OpenCV</span></div></div>
-            <div class="skill-group"><h4>NVIDIA Stack</h4><div class="skill-tags"><span class="skill-tag">DeepStream</span><span class="skill-tag">Triton</span><span class="skill-tag">GStreamer</span></div></div>
-            <div class="skill-group"><h4>NLP / LLM</h4><div class="skill-tags"><span class="skill-tag">HuggingFace</span><span class="skill-tag">Sentence Transformers</span><span class="skill-tag">RASA</span></div></div>
-            <div class="skill-group"><h4>Backend / DevOps</h4><div class="skill-tags"><span class="skill-tag">Django REST</span><span class="skill-tag">Flask</span><span class="skill-tag">Docker</span><span class="skill-tag">GitHub Actions</span><span class="skill-tag">PostgreSQL</span><span class="skill-tag">MySQL</span></div></div>
+            <div class="skill-group"><h4>NVIDIA Stack</h4><div class="skill-tags"><span class="skill-tag">DeepStream</span><span class="skill-tag">Triton Inference Server</span><span class="skill-tag">GStreamer</span></div></div>
+            <div class="skill-group"><h4>NLP / LLM</h4><div class="skill-tags"><span class="skill-tag">HuggingFace Transformers</span><span class="skill-tag">Sentence Transformers</span><span class="skill-tag">RASA</span></div></div>
+            <div class="skill-group"><h4>Backend / DevOps</h4><div class="skill-tags"><span class="skill-tag">Django REST</span><span class="skill-tag">Flask</span><span class="skill-tag">Streamlit</span><span class="skill-tag">Docker</span><span class="skill-tag">Docker Compose</span><span class="skill-tag">Git / GitHub Actions</span><span class="skill-tag">PostgreSQL</span><span class="skill-tag">MySQL</span></div></div>
         </div>
     </div>
 </section>
@@ -247,8 +248,8 @@
         <div class="section-label">// Background</div>
         <div class="section-title">Education</div>
         <div class="edu-grid">
-            <div class="edu-card"><div class="edu-degree">Post Graduate Diploma in Data Science</div><div class="edu-school">International Institute of Information Technology, Bangalore</div><div class="edu-year">Sep 2018 – Sep 2019</div></div>
-            <div class="edu-card"><div class="edu-degree">Bachelor of Computer Engineering</div><div class="edu-school">University of Pune, Pune, India</div><div class="edu-year">Jun 2012 – Jul 2016</div></div>
+            <div class="edu-card"><div class="edu-degree">Post Graduate Diploma in Data Science</div><div class="edu-school">International Institute of Information Technology, Bangalore</div><div class="edu-year">Sep 2018 – Sep 2019 · Score: 3.16/4</div></div>
+            <div class="edu-card"><div class="edu-degree">Bachelor of Computer Engineering</div><div class="edu-school">University of Pune, Pune, India</div><div class="edu-year">Jun 2012 – Jul 2016 · First Class with Distinction</div></div>
         </div>
     </div>
 </section>
@@ -268,9 +269,10 @@
 
 <footer>
     <div class="footer-links">
-        <a href="mailto:technosujit25@mail.com">✉ technosujit25@mail.com</a>
+        <a href="mailto:technosujit25@gmail.com">✉ technosujit25@gmail.com</a>
         <a href="tel:+918329132283">📱 +91 8329132283</a>
         <a href="https://www.linkedin.com/in/sujit25" target="_blank">↗ LinkedIn</a>
+        <a href="https://github.com/sujit25" target="_blank">↗ GitHub</a>
     </div>
     <div class="footer-copy">© 2025 Sujit Nalawade — Built with care.</div>
 </footer>
